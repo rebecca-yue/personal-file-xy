@@ -1,0 +1,11 @@
+task_name,task_type,due_frequency,completion_status,missed,hp_effect,context_recorded,notes
+Drink water,Daily,Every day,completed,no,0,no,Basic repeated self-care task
+Take medication,Daily,Every day,missed,yes,-10,no,Missed daily with no contextual explanation
+Reply to messages,To-Do,One-off,not completed,no,0,no,One-off task does not operate like a Daily
+Stretch for 10 minutes,Daily,Every day,completed,no,0,no,Routine task treated as repeatable behavioural object
+Pay electricity bill,To-Do,One-off,completed,no,0,no,Single deadline task
+Log mood,Daily,Every day,missed,yes,-10,no,No field for emotional difficulty or overload
+Read 5 pages,Daily,Every day,missed,yes,-10,no,Missed task becomes measurable loss
+Buy groceries,To-Do,One-off,completed,no,0,no,Single completion logic
+Walk outside,Habit,Flexible,completed,no,0,no,Habit differs from Daily in governance logic
+Rest,Reward,Optional,completed,no,0,no,Reward category works differently from required repetition
